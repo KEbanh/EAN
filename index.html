@@ -1,9 +1,10 @@
-<html>
-	<head>
+
+<!-- saved from url=(0032)file:///H:/Downloads/ean_ml.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<title>
 		Prüfziffer EAN
 		</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		
 		<script>
 			"use strict";
 			function rechne() {
@@ -47,7 +48,8 @@
 				
 				}
 				
-				vAusgabeHtml= "Die Prüfsumme ist: " +vPruefsumme+ " und die Prüfziffer ist: " +vPruefziffer;
+				vAusgabeHtml = " Die Artikelnummer lautet: " + vZ1+vZ2+vZ3+vZ4+vZ5+vZ6+vZ7+vZ8+vZ9+vZ10+vZ11+vZ12+ ". ";
+				vAusgabeHtml= vAusgabeHtml + "Die Prüfsumme ist " +vPruefsumme+ " und die Prüfziffer ist " +vPruefziffer;
 				
 				document.getElementById("idAusgabeHtml").innerHTML=vAusgabeHtml;
 				
@@ -73,11 +75,11 @@
 		<input id="idZ12" type="text" maxlength="1" size="1" value="3">
 		
 		
-		</br> 
-		</br> 
-		<button onClick="rechne();">Berechne Prüfziffer</button>
-		</br> 
-		</br> 
-		<div id="idAusgabeHtml"></div>
-	</body>
-</html>
+		<br> 
+		<br> 
+		<button onclick="rechne();">Berechne Prüfziffer</button>
+		<br> 
+		<br> 
+		<div id="idAusgabeHtml">Die Prüfsumme ist: 58 und die Prüfziffer ist: 2</div>
+	
+</body></html>
